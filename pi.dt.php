@@ -17,7 +17,7 @@
 
 $plugin_info = array(
   'pi_name' => 'DT (date plugin)',
-  'pi_version' => '1.4.2',
+  'pi_version' => '1.4.3',
   'pi_author' => 'Jerry Price',
   'pi_author_url' => 'http://viminteractive.com/ee_plugins/dt',
   'pi_description' => 'many date functions',
@@ -163,7 +163,7 @@ class Dt
 				$day+$this->_d, 
 				$year+$this->_y
 				));
-			
+
 			$this->return_data = $this->_return();
 	}
 	// --------------------------------------------------------------------
